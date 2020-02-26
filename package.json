@@ -1,0 +1,20 @@
+{
+  "name": "status",
+  "version": "1.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/tamhub/helm-deployer",
+  "author": {
+    "name": "helm-deployer",
+    "url": "https://github.com/tamhub/helm-deployer"
+  },
+  "dependencies": {
+    "@actions/core": "^1.0.0",
+    "@actions/exec": "^1.0.0",
+    "@actions/github": "^1.0.0",
+    "mustache": "^3.0.3"
+  },
+  "scripts": {
+    "release": "standard-version"
+  }
+}
